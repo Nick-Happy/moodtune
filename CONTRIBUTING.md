@@ -27,7 +27,7 @@ Thank you for your interest in MoodTune! We welcome all forms of contributions.
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/moodtune.git
+git clone https://github.com/Nick-Happy/moodtune.git
 cd moodtune
 
 # 安装依赖

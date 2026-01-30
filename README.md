@@ -64,7 +64,7 @@ MoodTune 是一款将**音乐**与**心情记录**完美融合的 Web 应用。�
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/moodtune.git
+git clone https://github.com/Nick-Happy/moodtune.git
 cd moodtune
 ```
 
@@ -108,7 +108,7 @@ npm run dev
 
 ### 部署到 Vercel（推荐）
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/moodtune)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nick-Happy/moodtune)
 
 1. Fork 本仓库
 2. 在 Vercel 中导入项目
@@ -257,7 +257,7 @@ moodtune/
 
 ### 如何提出新想法？
 
-1. 在 [Issues](https://github.com/YOUR_USERNAME/moodtune/issues) 中创建 `feature request`
+1. 在 [Issues](https://github.com/Nick-Happy/moodtune/issues) 中创建 `feature request`
 2. 使用 `[IDEA]` 标签
 3. 描述你的想法和使用场景
 
@@ -296,7 +296,7 @@ A web application that combines music with mood journaling. Record your feelings
 ### Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/moodtune.git
+git clone https://github.com/Nick-Happy/moodtune.git
 cd moodtune
 npm install
 cp .env.local.example .env.local
@@ -315,5 +315,5 @@ MIT
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/moodtune/stargazers">⭐ Star us on GitHub</a>
+  <a href="https://github.com/Nick-Happy/moodtune/stargazers">⭐ Star us on GitHub</a>
 </p>
