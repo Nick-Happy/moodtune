@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #171717;
+  --background: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+    --background: #0a0a0a;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* 心情颜色渐变背景 */
+.mood-gradient-happy {
+  background: linear-gradient(135deg, #FFD93D 0%, #FFE066 100%);
+}
+
+.mood-gradient-calm {
+  background: linear-gradient(135deg, #6BCB77 0%, #8FD694 100%);
+}
+
+.mood-gradient-sad {
+  background: linear-gradient(135deg, #4D96FF 0%, #74ACFF 100%);
+}
+
+.mood-gradient-energetic {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+}
+
+.mood-gradient-healing {
+  background: linear-gradient(135deg, #C9B1FF 0%, #DBC9FF 100%);
+}
+
+/* 玻璃态效果 */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark .glass {
+  background: rgba(30, 30, 30, 0.7);
+}
